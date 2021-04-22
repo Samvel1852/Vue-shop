@@ -1,0 +1,43 @@
+#main{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+#headrow{
+	width: 100%;
+	min-height: 100px;
+	display: flex;
+}
+#headrow>div{
+	width: 50%
+}
+#second{
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+}
+#second>div{
+	width: 50%;
+}
+#totfield{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#items{
+	display: flex;
+	flex-wrap: wrap;
+}
+#items>div{
+	width: 8em;
+	min-height: 120px;
+}
+#items>div>img{
+	width: 100px;
+	height: 100px;
+}
+#items>div>button{
+	width: 80px;
+}
